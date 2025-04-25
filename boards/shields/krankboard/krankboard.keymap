@@ -7,6 +7,7 @@
 		compatible = "zmk,keymap";
 		
 		default_layer {
+			display-name = "Base";
 			bindings = <
 				&kp BSPC	&kp N0  	&kp N9			&kp N8		&kp N7		&kp K6		&kp HOME	&kp K_VOL_DN	&kp K_VOL_UP
 				&kp ENTER	&kp P		&kp O			&kp I		&kp U		&kp Y		&kp DEL		&kp GP_DOWN	&kp GP_UP
@@ -18,7 +19,7 @@
 		
 		bt_layer {
 			bindings = <
-				
+				display-name = "BT";
 				&kp BSPC	&kp N0  	&kp N9			&kp N8			&kp N7			&kp K6		&kp HOME	&kp K_VOL_DN	&bootloader
 				&kp ENTER	&kp P		&kp O			&bt BT_DISC		&bt BT_CLR		&kp Y		&kp DEL		&kp GP_DOWN	&kp GP_UP
 				&kp SQT 	&kp SEMI	&bt BT_SEL_0	&bt BT_SEL_1  	&bt BT_SEL_2	&kp H		&none		&none		&none
