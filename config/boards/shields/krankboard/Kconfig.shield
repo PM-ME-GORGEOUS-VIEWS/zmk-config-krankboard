@@ -1,0 +1,2 @@
+config SHIELD_KRANKBOARD
+	def_bool $(shields_list_contains, krankboard)
