@@ -9,22 +9,34 @@
 		default_layer {
 			display-name = "Base";
 			bindings = <
-				&kp BSPC			&kp N0  	&kp N9			&kp N8		&kp N7		&kp N6		&kp NUMBER_3 		&kp NUMBER_2			&kp NUMBER_1
-				&kp ENTER			&kp P		&kp O			&kp I		&kp U		&kp Y		&kp NUMBER_6		&kp NUMBER_5			&kp NUMBER_4
-				&kp SINGLE_QUOTE 	&kp SEMI	&kp L			&kp K		&kp J		&kp H		&kp NUMBER_3 		&kp NUMBER_2			&kp NUMBER_1
-				&kp EQUAL			&kp MINUS	&kp PERIOD		&kp COMMA	&kp M		&kp N		&kp NUMBER_3		&kp NUMBER_5			&kp NUMBER_4
-												&kp RBKT		&kp LBKT														&kp SPACE
+				&kp NUMBER_1		&kp NUMBER_2		&kp NUMBER_3		&kp N6		&kp N7		&kp N8		&kp N9		&kp N0		&kp BSPC
+				&kp NUMBER_4		&kp NUMBER_5		&kp NUMBER_6		&kp Y		&kp U		&kp I		&kp O		&kp P		&kp ENTER
+				&kp NUMBER_1		&kp NUMBER_2		&kp NUMBER_3		&kp H		&kp J		&kp K		&kp L		&kp SEMI	&kp SINGLE_QUOTE
+				&kp NUMBER_4		&kp NUMBER_5		&kp NUMBER_6		&kp N		&kp M		&kp COMMA	&kp PERIOD	&kp MINUS	&kp EQUAL
+														&kp RBKT			&kp LBKT													&kp SPACE
+			
+				//&kp BSPC			&kp N0  	&kp N9			&kp N8		&kp N7		&kp N6		&kp NUMBER_3 		&kp NUMBER_2			&kp NUMBER_1
+				//&kp ENTER			&kp P		&kp O			&kp I		&kp U		&kp Y		&kp NUMBER_6		&kp NUMBER_5			&kp NUMBER_4
+				//&kp SINGLE_QUOTE 	&kp SEMI	&kp L			&kp K		&kp J		&kp H		&kp NUMBER_3 		&kp NUMBER_2			&kp NUMBER_1
+				//&kp EQUAL			&kp MINUS	&kp PERIOD		&kp COMMA	&kp M		&kp N		&kp NUMBER_6		&kp NUMBER_5			&kp NUMBER_4
+				//								&kp RBKT		&kp LBKT														&kp SPACE
 			>;
 		};
 		
 		bt_layer {
 			display-name = "BT";
 			bindings = <
-				&kp BSPC	&kp N0  	&kp N9			&kp N8			&kp N7			&kp N6		&kp HOME	&kp K_VOL_DN &none
-				&kp ENTER	&kp P		&kp O			&none		&bt BT_CLR		&kp Y		&kp DEL		&kp PAGE_DOWN	&kp PAGE_UP
-				&kp SQT 	&kp SEMI	&bt BT_SEL 0	&bt BT_SEL 1  	&bt BT_SEL 2	&kp H		&none		&none			&none
-				&kp EQUAL	&kp MINUS	&kp PERIOD		&kp COMMA		&kp M			&kp N		&none		&none			&none
-										&kp RBKT		&kp LBKT													&none
+				&kp NUMBER_1		&kp NUMBER_2		&kp NUMBER_3		&kp N6		&kp N7		&kp N8		&kp N9		&kp N0		&kp BSPC
+				&kp NUMBER_4		&kp NUMBER_5		&kp NUMBER_6		&kp Y		&kp U		&kp I		&kp O		&kp P		&kp ENTER
+				&kp NUMBER_1		&kp NUMBER_2		&kp NUMBER_3		&kp H		&bt BT_SEL 0		&bt BT_SEL 1		&bt BT_SEL 2		&kp SEMI	&kp SINGLE_QUOTE
+				&kp NUMBER_4		&kp NUMBER_5		&kp NUMBER_6		&kp N		&kp M		&kp COMMA	&kp PERIOD	&kp MINUS	&kp EQUAL
+														&kp RBKT			&kp LBKT													&kp SPACE
+			
+				//&kp BSPC	&kp N0  	&kp N9			&kp N8			&kp N7			&kp N6		&kp HOME	&kp K_VOL_DN &none
+				//&kp ENTER	&kp P		&kp O			&none			&bt BT_CLR		&kp Y		&kp DEL		&kp PAGE_DOWN	&kp PAGE_UP
+				//&kp SQT 	&kp SEMI	&bt BT_SEL 0	&bt BT_SEL 1  	&bt BT_SEL 2	&kp H		&none		&none			&none
+				//&kp EQUAL	&kp MINUS	&kp PERIOD		&kp COMMA		&kp M			&kp N		&none		&none			&none
+				//						&kp RBKT		&kp LBKT													&none
 			>;
 		};
 	};
