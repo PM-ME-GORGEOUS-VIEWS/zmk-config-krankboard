@@ -1,2 +1,9 @@
 config SHIELD_KRANKBOARD
 	def_bool $(shields_list_contains, krankboard)
+
+/ {
+    wired_split {
+        compatible = "zmk,wired-split";
+        device = <&pro_micro_serial>;
+    };
+};
