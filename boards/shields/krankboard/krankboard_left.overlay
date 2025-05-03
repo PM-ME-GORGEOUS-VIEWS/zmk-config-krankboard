@@ -1,4 +1,5 @@
 #include "krankboard.dtsi" // The shared dtsi file is included in the overlay
+#include "krankboard.keymap"
 
 // Label of the kscan node in the dtsi
 &kscan0 {
