@@ -1,5 +1,6 @@
 #include "krankboard.dtsi" // The shared dtsi file is included in the overlay
 #include "krankboard.keymap"
+#include <dt-bindings/zmk/matrix_transform.h>
 
 // Label of the kscan node in the dtsi
 &kscan0 {
