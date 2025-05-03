@@ -18,3 +18,4 @@
 					<&pro_micro 9 GPIO_ACTIVE_LOW>,
 					<&pro_micro 10 GPIO_ACTIVE_LOW>;
 	};
+};
