@@ -1,6 +1,15 @@
 config SHIELD_KRANKBOARD
 	def_bool $(shields_list_contains, krankboard)
 
+# No whitespace after the comma or in your part name!
+config SHIELD_KRANKBOARD_LEFT
+    def_bool $(shields_list_contains,krankboard_left)
+
+# No whitespace after the comma or in your part name!
+config SHIELD_KRANKBOARD_RIGHT
+    def_bool $(shields_list_contains,krankboard_right)
+
+
 / {
     wired_split {
         compatible = "zmk,wired-split";
