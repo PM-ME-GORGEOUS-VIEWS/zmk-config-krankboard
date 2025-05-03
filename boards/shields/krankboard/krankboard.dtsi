@@ -1,3 +1,5 @@
+#include "<board>-pinctrl.dtsi"
+
 / {
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
@@ -34,4 +36,9 @@
 		>;
 	};
     };
+	
+	&uart0 {
+		pinctrl-0 = <&uart0_default>;
+		pinctrl-names = "default";
+	};
 };
