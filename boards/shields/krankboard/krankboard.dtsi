@@ -1,6 +1,6 @@
 #include "pinctrl.dtsi"
 
-
+/{
 
     kscan: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
@@ -42,3 +42,4 @@
 		pinctrl-0 = <&uart0_default>;
 		pinctrl-names = "default";
 	};
+};
