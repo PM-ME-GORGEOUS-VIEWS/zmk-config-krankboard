@@ -13,5 +13,8 @@ if SHIELD_KRANKBOARD_LEFT || SHIELD_KRANKBOARD_RIGHT
 
 config ZMK_SPLIT
     default y
+	
+config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
+	default y
 
 endif
