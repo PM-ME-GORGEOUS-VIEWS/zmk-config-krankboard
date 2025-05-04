@@ -18,6 +18,7 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+shield: [ "krankboard_right", "krankboard_left" ]
 include:
   - board: nice_nano_v2
-    shield: "krankboard_right", "krankboard_left"
+    shield: krankboard_right
