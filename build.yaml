@@ -25,4 +25,3 @@ include:
     shield: krankboard_right
     artifact-name: krankboard_right
     cmake-args: -d build/right -b nice_nano_v2 -- -DSHIELD=krankboard_right
-    cmake-args: -d build/left -b nice_nano_v2 -- -DSHIELD=krankboard_left
