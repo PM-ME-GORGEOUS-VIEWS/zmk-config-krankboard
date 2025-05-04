@@ -17,7 +17,7 @@
 					<&pro_micro 10 GPIO_ACTIVE_LOW>;
 	};
 
-	&default_transform { 
+	default_transform { 
 		col-offset = <9>;
 	};
 
