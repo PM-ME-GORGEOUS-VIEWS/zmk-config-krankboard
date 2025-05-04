@@ -7,9 +7,8 @@ config SHIELD_KRANKBOARD_RIGHT
     def_bool $(shields_list_contains,krankboard_right)
 
 
-/ {
+
     wired_split {
         compatible = "zmk,wired-split";
         device = <&pro_micro_serial>;
     };
-};
