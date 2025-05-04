@@ -1,6 +1,6 @@
 #include "pinctrl.dtsi"
 
-/ {
+
 
 	physical_layout0: physical_layout_0 { // First physical layout, use different naming for other layouts
 		compatible = "zmk,physical-layout";
@@ -45,12 +45,11 @@
 				RC(2,9)	RC(2,10)	RC(2,11)	RC(2,12)	RC(2,13)	RC(2,14)	RC(2,15)	RC(2,16)	RC(2,17)			RC(2,8) RC(2,7) RC(2,6) RC(2,5) RC(2,4) RC(2,3) RC(2,2) RC(2,1) RC(2,0)
 				RC(3,9)	RC(3,10)	RC(3,11)	RC(3,12)	RC(3,13)	RC(3,14)	RC(3,15)	RC(3,16)	RC(3,17)			RC(3,8) RC(3,7) RC(3,6) RC(3,5) RC(3,4) RC(3,3) RC(3,2) RC(3,1) RC(3,0)
 									RC(5,11)	RC(4,12)													RC(4,17)			RC(4,8)									RC(4,3)	RC(4,2) 								
-		>;
-	};
+			>;
+		};
     };
 	
 	&uart0 {
 		pinctrl-0 = <&uart0_default>;
 		pinctrl-names = "default";
 	};
-};
