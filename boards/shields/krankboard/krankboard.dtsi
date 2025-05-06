@@ -1,4 +1,4 @@
-#include "nice_nano_v2-pinctrl.dtsi"
+#include "<boards>-pinctrl.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 
 /{
