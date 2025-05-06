@@ -1,4 +1,4 @@
-#include "<boards>-pinctrl.dtsi"
+#include "<board>-pinctrl.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 
 /{
