@@ -1,5 +1,4 @@
 
-/{
 	&pinctrl {
 		/* configuration for uart0 device, default state */
 		uart0_default: uart0_default {
@@ -15,4 +14,3 @@
 			};
 		};
 	};
-};
