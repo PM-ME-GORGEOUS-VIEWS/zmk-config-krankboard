@@ -1,5 +1,5 @@
 #include "krankboard.dtsi" // The shared dtsi file is included in the overlay
-#include "krankboard.keymap"
+#include "krankboard.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 
 
