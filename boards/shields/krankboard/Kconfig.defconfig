@@ -1,3 +1,20 @@
+if BOARD_NICE_NANO || BOARD_NICE_NANO_V2
+
+config BOARD
+    default "nice_nano"
+
+if USB_DEVICE_STACK
+
+config USB_NRFX
+    default y
+
+endif # USB_DEVICE_STACK
+
+config BT_CTLR
+    default BT
+
+endif # BOARD_NICE_NANO || BOARD_NICE_NANO_V2
+
 if SHIELD_KRANKBOARD_RIGHT
 
 # Name must be less than 16 characters long!
