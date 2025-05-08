@@ -1,15 +1,4 @@
-
-if BOARD_NICE_NANO || BOARD_NICE_NANO_V2
-
-config BOARD
-    default "nice_nano"
-
-endif # BOARD_NICE_NANO || BOARD_NICE_NANO_V2
-
 if SHIELD_KRANKBOARD_RIGHT
-
-config ZMK_KEYBOARD_NAME
-    default "krankboard"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -18,9 +7,10 @@ endif
 
 if SHIELD_KRANKBOARD_LEFT || SHIELD_KRANKBOARD_RIGHT
 
+config ZMK_KEYBOARD_NAME
+    default "krankboard"
+
 config ZMK_SPLIT
     default y
-	
-config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
 
 endif
