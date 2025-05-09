@@ -16,7 +16,7 @@
 	//				<&pro_micro 10 GPIO_ACTIVE_LOW>;
 	//};
 	
-	&pinctrl {
+	pinctrl {
 	/* configuration for uart0 device, default state */
 	uart0_default: uart0_default {
 			group1 {
