@@ -44,10 +44,10 @@
 		};
     };
 	
-	&uart0 {
-		pinctrl-0 = <&uart0_default>;
-		pinctrl-names = "default";
-	};
+	//&uart0 {
+	//	pinctrl-0 = <&uart0_default>;
+	//	pinctrl-names = "default";
+	//};
 	
 	wired_split {
         compatible = "zmk,wired-split";
