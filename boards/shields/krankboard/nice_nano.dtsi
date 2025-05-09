@@ -1,5 +1,0 @@
-/{
-	model = "nice!nano";
-    compatible = "nice,nano";
-};
-
