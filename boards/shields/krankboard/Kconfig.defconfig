@@ -28,4 +28,4 @@ choice
 	
 config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
 
-enchoice
+endchoice
