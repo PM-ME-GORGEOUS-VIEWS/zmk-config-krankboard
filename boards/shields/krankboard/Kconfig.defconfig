@@ -10,16 +10,22 @@ if SHIELD_KRANKBOARD_LEFT || SHIELD_KRANKBOARD_RIGHT
 config LOG_PROCESS_THREAD_STARTUP_DELAY_MS
 	default 8000
 
-config ZMK_SPLIT_WIRED
-	default y
-	
-config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
-    default y
-
 config ZMK_KEYBOARD_NAME
     default "krankboard"
 
 config ZMK_SPLIT
     default y
+	
+config ZMK_SPLIT_WIRED
+	default y
 
 endif
+
+if ZMK_SPLIT_WIRED
+
+choice
+    prompt "UART Mode"
+	
+config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
+
+enchoice
