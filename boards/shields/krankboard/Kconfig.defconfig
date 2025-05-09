@@ -12,8 +12,11 @@ config LOG_PROCESS_THREAD_STARTUP_DELAY_MS
 
 config ZMK_SPLIT_WIRED
 	default y
+	
 config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
-	default y
+    bool "Interrupt Mode"
+    depends on SERIAL_SUPPORT_INTERRUPT
+    select UART_INTERRUPT_DRIVEN
 
 config ZMK_KEYBOARD_NAME
     default "krankboard"
