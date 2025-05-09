@@ -3,10 +3,3 @@
     compatible = "nice,nano";
 };
 
-&uart0 {
-    compatible = "nordic,nrf-uarte";
-    current-speed = <115200>;
-    pinctrl-0 = <&uart0_default>;
-    pinctrl-1 = <&uart1>;
-    pinctrl-names = "default", "left";
-};
