@@ -25,3 +25,8 @@ include:
     shield: krankboard_right
     artifact-name: krankboard_right
     snippet: zmk-usb-logging
+    
+  - board: nice_nano_v2
+    shield: krankboard_left
+    artifact-name: krankboard_left
+    snippet: zmk-usb-logging
