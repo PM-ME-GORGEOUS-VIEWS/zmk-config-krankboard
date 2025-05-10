@@ -22,11 +22,7 @@ config ZMK_SPLIT_WIRED
 endif
 
 if ZMK_SPLIT_WIRED
-
-choice
-    prompt "UART Mode"
 	
 config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
 
-endchoice
 endif
