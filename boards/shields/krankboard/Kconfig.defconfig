@@ -20,6 +20,5 @@ config ZMK_SPLIT
 	default y
 	
 config ZMK_SPLIT_WIRED
-	default y
 	
 endif
