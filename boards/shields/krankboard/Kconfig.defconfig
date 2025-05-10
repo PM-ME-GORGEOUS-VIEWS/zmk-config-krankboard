@@ -1,8 +1,5 @@
 
-
 config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
-
-config ZMK_SPLIT_WIRED
 
 if SHIELD_KRANKBOARD_RIGHT
 
@@ -21,5 +18,8 @@ config LOG_PROCESS_THREAD_STARTUP_DELAY_MS
 	
 config ZMK_SPLIT
 	default y
-
+	
+config ZMK_SPLIT_WIRED
+	default y
+	
 endif
