@@ -15,14 +15,10 @@ config ZMK_KEYBOARD_NAME
 
 config ZMK_SPLIT
     default y
-	
+
 config ZMK_SPLIT_WIRED
 	default y
 
-endif
-
-if ZMK_SPLIT_WIRED
-	
 config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
 
 endif
