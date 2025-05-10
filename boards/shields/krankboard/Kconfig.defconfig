@@ -13,9 +13,6 @@ config LOG_PROCESS_THREAD_STARTUP_DELAY_MS
 config ZMK_KEYBOARD_NAME
     default "krankboard"
 
-config ZMK_SPLIT
-	default y
-
 config ZMK_SPLIT_WIRED
 	default y
 
