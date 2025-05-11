@@ -1,7 +1,7 @@
 if SHIELD_KRANKBOARD_RIGHT
 
 config ZMK_SPLIT_ROLE_CENTRAL
-	bool y
+	bool 1
 	
 config ZMK_KEYBOARD_NAME
     default "krankboard"
