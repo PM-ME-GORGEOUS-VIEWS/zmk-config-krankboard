@@ -1,7 +1,7 @@
 if SHIELD_KRANKBOARD_RIGHT
 
 config ZMK_SPLIT_ROLE_CENTRAL
-	bool 1
+	default y
 	
 config ZMK_KEYBOARD_NAME
     default "krankboard"
@@ -24,7 +24,6 @@ config ZMK_SPLIT
 	default y
 	
 config ZMK_SPLIT_WIRED
-
-config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
+	select ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
 	
 endif
