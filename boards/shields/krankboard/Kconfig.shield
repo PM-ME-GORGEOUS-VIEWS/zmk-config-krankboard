@@ -1,3 +1,3 @@
 # No whitespace after the comma or in your part name!
-config SHIELD_KRANKBOARD_R
-    def_bool $(shields_list_contains,krankboard_r)
+config SHIELD_KRANKBOARD_L
+    def_bool $(shields_list_contains,krankboard_l)
