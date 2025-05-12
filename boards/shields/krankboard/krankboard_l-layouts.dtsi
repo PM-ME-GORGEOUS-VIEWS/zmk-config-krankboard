@@ -54,8 +54,8 @@
 
 
             <&key_physical_attrs 100 100  800    600    (-30) 0     0>,
-            <&key_physical_attrs 100 100  600    400    0     0     0>,
-            <&key_physical_attrs 100 100  500    400    0     0     0>;
+            <&key_physical_attrs 100 100  300    400    0     0     0>,
+            <&key_physical_attrs 100 100  200    400    0     0     0>;
     };
 
     krankboard_l_position_map {
