@@ -49,8 +49,4 @@
 	    transform = <&default_transform>; // Label of the matrix transform this layout uses
 	};
 
-
-	zephyr_udc0: &usbd {
-	    status = "okay";
-	};
 };
