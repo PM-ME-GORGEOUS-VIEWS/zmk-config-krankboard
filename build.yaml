@@ -19,8 +19,8 @@
 #
 ---
 board: [ "nice_nano_v2" ]
-shield: [ "krankboard_right" ]
+shield: [ "krankboard_r" ]
 include:
   - board: nice_nano_v2
-    shield: krankboard_right
-    artifact-name: krankboard_right
+    shield: krankboard_r
+    artifact-name: krankboard_r
