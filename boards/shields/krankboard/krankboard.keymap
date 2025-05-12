@@ -27,5 +27,16 @@
 				&kp SPACE												&kp LBKT	&kp RBKT												
 			>;
 		};
+
+		layer_1 {
+			display-name = "L1";
+			bindings = <
+				&kp NUMBER_1		&kp NUMBER_2		&kp NUMBER_3		&kp N5		&kp N4		&kp N3		&kp N2		&kp N1		&kp ESCAPE
+				&kp NUMBER_4		&kp NUMBER_5		&kp NUMBER_6		&kp T		&kp R		&kp E		&kp W		&kp Q		&kp TAB
+				&kp NUMBER_1		&kp NUMBER_2		&studio_unlock		&kp G		&bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2	&kp A		&kp LSHIFT
+				&kp NUMBER_4		&kp NUMBER_5		&kp NUMBER_6		&kp B		&kp V		&kp C		&kp X		&kp Z		&kp LCTRL
+				&kp SPACE												&kp LBKT	&kp RBKT												
+			>;
+		};
 	};
 };
