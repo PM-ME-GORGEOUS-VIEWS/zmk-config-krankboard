@@ -54,7 +54,7 @@
             <&key_physical_attrs 100 100  600    400       0     0     0>;
     };
 
-    keypad_position_map {
+    krankboard_r_position_map {
         compatible = "zmk,physical-layout-position-map";
         complete;
 
