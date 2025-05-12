@@ -3,7 +3,7 @@
 / {
     physical_layout0: physical_layout0{
         compatible = "zmk,physical-layout";
-        display-name = "krankboard_l";
+        display-name = "krankboard_r";
         transform = <&default_transform>;
         kscan = <&kscan0>;
         keys   //                 w   h    x    y     rot    rx    ry
@@ -58,11 +58,11 @@
             <&key_physical_attrs 100 100  600    400       0     0     0>;
     };
 
-    krankboard_l_position_map {
+    krankboard_r_position_map {
         compatible = "zmk,physical-layout-position-map";
         complete;
 
-        krankboard_l_map: krankboard_l {
+        krankboard_r_map: krankboard_r {
             physical-layout = <&physical_layout0>;
             positions =
                 <0  1  2  3  4  5  6  7  8>,
