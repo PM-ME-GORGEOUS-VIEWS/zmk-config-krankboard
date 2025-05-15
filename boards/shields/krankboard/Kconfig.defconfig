@@ -10,7 +10,7 @@ endif
 
 if SHIELD_KRANKBOARD_LEFT || SHIELD_KRANKBOARD_RIGHT
 	
-config ZMK_SPLIT
+config ZMK_SPLIT_BLE
 	default y
 	
 	
