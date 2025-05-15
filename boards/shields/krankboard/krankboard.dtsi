@@ -1,6 +1,6 @@
 #include "pinctrl.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "krankboard_l-layouts.dtsi"
+#include "krankboard-layouts.dtsi"
 
 /{
 
