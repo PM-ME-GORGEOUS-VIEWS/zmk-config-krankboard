@@ -1,7 +1,7 @@
 if SHIELD_KRANKBOARD_RIGHT
 
 config ZMK_SPLIT_ROLE_CENTRAL
-	default y
+	default n
 	
 config ZMK_KEYBOARD_NAME
     default "krankboard"
@@ -11,21 +11,14 @@ endif
 if SHIELD_KRANKBOARD_LEFT
 
 config ZMK_SPLIT_ROLE_CENTRAL
-	default n
+	default y
 	
 endif
 
 if SHIELD_KRANKBOARD_LEFT || SHIELD_KRANKBOARD_RIGHT
-
-config LOG_PROCESS_THREAD_STARTUP_DELAY_MS
-	default 8000
 	
 config ZMK_SPLIT
 	default y
 	
-config ZMK_SPLIT_WIRED
-	select UART_INTERRUPT_DRIVEN
-
-config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
 	
 endif
