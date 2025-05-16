@@ -25,7 +25,7 @@ include:
     shield: krankboard_left
     artifact-name: krankboard_left
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    #snippet: studio-rpc-usb-uart
+    snippet: studio-rpc-usb-uart
 
   - board: nice_nano_v2
     shield: krankboard_right
