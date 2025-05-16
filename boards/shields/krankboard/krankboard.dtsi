@@ -46,5 +46,12 @@
 	    kscan = <&kscan0>; // Label of the kscan node this layout uses
 	    transform = <&default_transform>; // Label of the matrix transform this layout uses
 	};
+
+    uart0_sleep: uart0_sleep {
+        group1 {
+            psels = <NRF_PSEL(UART_RX, 0, 8)>,
+                <NRF_PSEL(UART_TX, 0, 6)>;
+            low-power-enable;
+        };
 };
 
