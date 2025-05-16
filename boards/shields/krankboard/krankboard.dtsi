@@ -49,8 +49,8 @@
 	};
 
 	uart0 {
-	    pinctrl-0 = <&uart0_default>;
-	    pinctrl-names = "default";
+	    pinctrl-0 = <&uart0_sleep>;
+	    pinctrl-names = "sleep";
 	};
 
 
