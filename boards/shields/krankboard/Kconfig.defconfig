@@ -12,9 +12,10 @@ config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
 endif
 
 if SHIELD_KRANKBOARD_LEFT || SHIELD_KRANKBOARD_RIGHT
-	
+
+config ZMK_SPLIT
+	default y
 config ZMK_SPLIT_BLE
 	default y
-	
 	
 endif
