@@ -1,4 +1,4 @@
-#include "krankboard.dtsi" // The shared dtsi file is included in the overlay
-#include <dt-bindings/zmk/matrix_transform.h>
+//#include "krankboard.dtsi" // The shared dtsi file is included in the overlay
+//#include <dt-bindings/zmk/matrix_transform.h>
 
 
