@@ -1,10 +1,10 @@
 #include "krankboard.dtsi" // The shared dtsi file is included in the overlay
 #include <dt-bindings/zmk/matrix_transform.h>
-/{
 
 
-	default_transform { 
+
+	&default_transform { 
 		col-offset = <9>;
 	};
 
-};
+
