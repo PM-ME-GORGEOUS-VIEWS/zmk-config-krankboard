@@ -4,7 +4,7 @@
 /{
 
 	//Label of the kscan node in the dtsi
-	kscan0 {
+	&kscan0 {
 				
 		col-gpios = <&pro_micro 10 GPIO_ACTIVE_LOW>,
 					<&pro_micro 9 GPIO_ACTIVE_LOW>,
@@ -18,7 +18,7 @@
 	};
 
 
-	default_transform { 
+	&default_transform { 
 		col-offset = <9>;
 	};
 
