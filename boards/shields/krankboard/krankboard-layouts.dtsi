@@ -3,7 +3,7 @@
 / {
     physical_layout0: physical_layout0{
         compatible = "zmk,physical-layout";
-        display-name = "krankboard";
+        display-name = "krankboard_l";
         transform = <&default_transform>;
         kscan = <&kscan0>;
         keys   //                 w   h    x    y     rot    rx    ry
