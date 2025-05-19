@@ -1,5 +1,6 @@
 if SHIELD_KRANKBOARDL
 	
-CONFIG_ZMK_KEYBOARD_NAME="krankboardL"
+config ZMK_KEYBOARD_NAME
+	default "krankboardL"
 
 endif
