@@ -58,11 +58,11 @@
             <&key_physical_attrs 100 100  200    400    0     0     0>;
     };
 
-    krankboard_l_position_map {
+    krankboardL_position_map {
         compatible = "zmk,physical-layout-position-map";
         complete;
 
-        krankboard_l_map: krankboard_l {
+        krankboardL_map: krankboard_l {
             physical-layout = <&physical_layout0>;
             positions =
                 <8  7  6  5  4  3  2  1  0>,
