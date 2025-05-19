@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "krankboard_l-layouts.dtsi"
+#include "krankboardL-layouts.dtsi"
 
 /{
 
